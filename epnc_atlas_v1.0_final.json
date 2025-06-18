@@ -1384,4 +1384,38 @@
     },
     "notes": "modus -0.3 narrative; genesis -0.4 emergent; sov 0."
   }
+    {
+    "entity_id": "404embassy-media-01",
+    "entity_name": "404Embassy",
+    "version": "1.1",
+    "snapshot_date": "2025-06-18",
+    "assessed_by": "404Embassy",
+    "layer1_coordinates": {
+      "modus_operandi_score": -0.7,
+      "genesis_locus_score": 0.8,
+      "sovereignty_level": 1
+    },
+    "layer2_profile": {
+      "identity": {
+        "primary": "Media Outlet",
+        "secondary": ["Think Tank"]
+      },
+      "primary_vectors": [
+        "NARRATE",
+        "CONVENE"
+      ],
+      "signal_markers": [
+        "narrative-engine",
+        "research-driven",
+        "governance-mapping",
+        "epnc-protocol"
+      ],
+      "scale": {
+        "community": "Micro",
+        "capital": "Seed",
+        "legal_status": "Unincorporated"
+      }
+    },
+    "notes": "modus -0.7: Primarily a narrative and analytical engine (Substack, Atlas). Its main 'protocol' is the EPNC methodology itself, which is a form of narrative structuring. genesis 0.8: Highly architected by a single operator (Ray Svitla) with a clear editorial vision. sov 1: Aims to influence the discourse and development of network states (para-sovereign), but has no territorial or formal legal ambitions beyond a media entity."
+  }
 ]
