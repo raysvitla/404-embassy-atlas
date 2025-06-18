@@ -13,9 +13,7 @@ This Atlas is curated by [404Embassy](https://embassy.svit.la/), a research stud
 ## 🗺️ The Live Atlas
 
 The data in this repository powers our interactive visualizations. You can explore the live map here:
-
-[<iframe width="100%" height="726" frameborder="0"
-  src="https://observablehq.com/embed/@404embassy-atlas/ver1@latest?cells=chart"></iframe>](https://observablehq.com/embed/@404embassy-atlas/ver1@latest?cells=chart)
+https://observablehq.com/@404embassy-atlas/ver1
 
 The map plots entities across two primary axes:
 *   **X-Axis (Modus Operandi):** Narrative (-1.0) ↔ Protocol (+1.0)
@@ -41,9 +39,8 @@ A full description of the EPNC v1.1 protocol can be found in our [Protocol Docum
 
 The core of this project is the "Genesis Block" dataset, a collection of 41 curated entity profiles.
 
-*   **View the full dataset:** [`epnc_atlas_v1.0_final.json`](./epnc_atlas_v1.0_final.json)
-*   **Schema:** The data strictly adheres to the [EPNC v1.1 JSON Schema Definition](./EPNC_v1.1_SCHEMA.json). 
-<!-- Рекомендуется создать и этот файл, чтобы сделать репозиторий полным -->
+*   **View the full dataset:** [`epnc_atlas_v1.0.json`](./epnc_atlas_v1.0_final.json)
+*   **Wiki:** /wiki/The-Embassy-Protocol-for-Network-Cartography-(EPNC)-v1
 
 ---
 
