@@ -14,8 +14,8 @@ This Atlas is curated by [404Embassy](https://embassy.svit.la/), a research stud
 
 The data in this repository powers our interactive visualizations. You can explore the live map here:
 
-<iframe width="100%" height="726" frameborder="0"
-  src="https://observablehq.com/embed/@404embassy-atlas/ver1@latest?cells=chart"></iframe>
+[<iframe width="100%" height="726" frameborder="0"
+  src="https://observablehq.com/embed/@404embassy-atlas/ver1@latest?cells=chart"></iframe>](https://observablehq.com/embed/@404embassy-atlas/ver1@latest?cells=chart)
 
 The map plots entities across two primary axes:
 *   **X-Axis (Modus Operandi):** Narrative (-1.0) ↔ Protocol (+1.0)
