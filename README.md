@@ -6,7 +6,7 @@ The world of governance is fragmenting and rebundling. New forms of sovereignty 
 
 We needed a map. So we built one.
 
-This Atlas is curated by [404Embassy](https://embassy.svit.la/), a research studio and newsletter documenting the rise of network societies. It is built upon the **Embassy Protocol for Network Cartography (EPNC) v1.1**, a standardized methodology for classifying and analyzing these new entities.
+This Atlas is curated by [404Embassy](https://embassy.svit.la/), a research studio and newsletter documenting the rise of network societies. It is built upon the **Embassy Protocol for Network Cartography (EPNC) v1**, a standardized methodology for classifying and analyzing these new entities.
 
 ---
 
@@ -30,8 +30,7 @@ Our analysis is not arbitrary. Every entity in this Atlas is assessed against a 
 *   **Layer 1: Foundational Coordinates:** An entity's position in a 3D conceptual space (Modus Operandi, Genesis Locus, Sovereignty Gradient).
 *   **Layer 2: Functional Profile:** An entity's operational reality (Identity, Primary Vectors, Scale, Signal Markers).
 
-A full description of the EPNC v1.1 protocol can be found in our [Protocol Documentation](https://link-to-your-substack-post-explaining-the-protocol.com).
-<!-- Ты добавишь эту ссылку, когда напишешь пост -->
+A full description of the EPNC v1.1 protocol can be found in our [Protocol Documentation](https://github.com/raysvitla/404-embassy-atlas/wiki/The-Embassy-Protocol-for-Network-Cartography-(EPNC)-v1).
 
 ---
 
@@ -40,8 +39,6 @@ A full description of the EPNC v1.1 protocol can be found in our [Protocol Docum
 The core of this project is the "Genesis Block" dataset, a collection of 41 curated entity profiles.
 
 *   **View the full dataset:** [`epnc_atlas_v1.0.json`](./epnc_atlas_v1.0_final.json)
-*   **Wiki:** /wiki/The-Embassy-Protocol-for-Network-Cartography-(EPNC)-v1
-
 ---
 
 ## 🤝 How to Contribute
