@@ -6,7 +6,7 @@ The world of governance is fragmenting and rebundling. New forms of sovereignty 
 
 We needed a map. So we built one.
 
-This Atlas is curated by [404Embassy](httpss://404.embassy.gov), a research studio and newsletter documenting the rise of network societies. It is built upon the **Embassy Protocol for Network Cartography (EPNC) v1.1**, a standardized methodology for classifying and analyzing these new entities.
+This Atlas is curated by [404Embassy](https://embassy.svit.la/), a research studio and newsletter documenting the rise of network societies. It is built upon the **Embassy Protocol for Network Cartography (EPNC) v1.1**, a standardized methodology for classifying and analyzing these new entities.
 
 ---
 
@@ -14,8 +14,8 @@ This Atlas is curated by [404Embassy](httpss://404.embassy.gov), a research stud
 
 The data in this repository powers our interactive visualizations. You can explore the live map here:
 
-**[Link to your ObservableHQ interactive map will go here]** 
-<!-- Ты добавишь эту ссылку позже, после Шага 2 -->
+<iframe width="100%" height="726" frameborder="0"
+  src="https://observablehq.com/embed/@404embassy-atlas/ver1@latest?cells=chart"></iframe>
 
 The map plots entities across two primary axes:
 *   **X-Axis (Modus Operandi):** Narrative (-1.0) ↔ Protocol (+1.0)
