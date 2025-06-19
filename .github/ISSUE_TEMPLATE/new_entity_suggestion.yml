@@ -103,4 +103,9 @@ body:
     attributes:
       label: Additional Context or Justification
       description: Why did you choose these scores? Any other links (whitepaper, Discord, etc.) or signal markers we should know about?
-      placeholder: e.g., We chose Level 2 for Sovereignty because we are registered as a Foundation in Switzerland. Our primary vector is FUND...
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context or Justification
+      description: Why did you choose these scores? Any other links (whitepaper, Discord, etc.) or signal markers we should know about?
+      placeholder: "e.g., We chose Level 2 for Sovereignty because we are registered as a Foundation in Switzerland. Our primary vector is FUND..."
