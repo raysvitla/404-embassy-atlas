@@ -13,7 +13,7 @@ body:
     attributes:
       label: Project Name
       description: What is the official name of the entity?
-      placeholder: e.g., Próspera ZEDE
+      placeholder: "e.g., Próspera ZEDE"
     validations:
       required: true
 
@@ -21,8 +21,8 @@ body:
     id: project-website
     attributes:
       label: Website or Primary Link
-      description: Where can we find the canonical source of truth for this project?
-      placeholder: e.g., https://prospera.hn/
+      description: "Where can we find the canonical source of truth for this project?"
+      placeholder: "e.g., https://prospera.hn/"
     validations:
       required: true
 
@@ -30,8 +30,8 @@ body:
     id: project-description
     attributes:
       label: One-Line Pitch
-      description: In a single sentence, what is this entity?
-      placeholder: e.g., A special economic zone in Honduras offering legal and regulatory autonomy.
+      description: "In a single sentence, what is this entity?"
+      placeholder: "e.g., A special economic zone in Honduras offering legal and regulatory autonomy."
     validations:
       required: true
 
@@ -39,7 +39,7 @@ body:
     id: core-identity
     attributes:
       label: Core Identity
-      description: What is the primary structural form of this entity? (Choose the best fit)
+      description: "What is the primary structural form of this entity? (Choose the best fit)"
       options:
         - Movement
         - Protocol
@@ -66,7 +66,7 @@ body:
     id: modus-operandi
     attributes:
       label: Axis X: Modus Operandi
-      description: Is the primary output Culture/Narrative or Code/Protocol?
+      description: "Is the primary output Culture/Narrative or Code/Protocol?"
       options:
         - "-1.0 (Almost Purely Narrative)"
         - "-0.5 (Leans Narrative)"
@@ -78,7 +78,7 @@ body:
     id: genesis-locus
     attributes:
       label: Axis Y: Genesis Locus
-      description: Is the origin Bottom-up/Emergent or Top-down/Architected?
+      description: "Is the origin Bottom-up/Emergent or Top-down/Architected?"
       options:
         - "-1.0 (Almost Purely Emergent)"
         - "-0.5 (Leans Emergent)"
@@ -90,7 +90,7 @@ body:
     id: sovereignty-level
     attributes:
       label: Axis Z: Sovereignty Gradient
-      description: How 'real' is the entity?
+      description: "How 'real' is the entity?"
       options:
         - "Level 0: Pure Virtual (e.g., a DAO)"
         - "Level 1: Para-Sovereign (e.g., a lobbying group)"
@@ -102,10 +102,5 @@ body:
     id: additional-context
     attributes:
       label: Additional Context or Justification
-      description: Why did you choose these scores? Any other links (whitepaper, Discord, etc.) or signal markers we should know about?
-  - type: textarea
-    id: additional-context
-    attributes:
-      label: Additional Context or Justification
-      description: Why did you choose these scores? Any other links (whitepaper, Discord, etc.) or signal markers we should know about?
+      description: "Why did you choose these scores? Any other links (whitepaper, Discord, etc.) or signal markers we should know about?"
       placeholder: "e.g., We chose Level 2 for Sovereignty because we are registered as a Foundation in Switzerland. Our primary vector is FUND..."
