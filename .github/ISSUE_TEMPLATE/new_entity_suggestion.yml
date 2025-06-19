@@ -94,13 +94,11 @@ body:
       label: Axis Z: Sovereignty Gradient
       description: "How 'real' is the entity?"
       options:
-        # --- ИЗМЕНЕНИЯ ЗДЕСЬ ---
-        - "Level 0: Pure Virtual (e.g., a DAO)"
-        - "Level 1: Para-Sovereign (e.g., a lobbying group)"
-        - "Level 2: Legal Wrapper (e.g., a DAO LLC)"
-        - "Level 3: Territorial Enclave (e.g., an SEZ)"
-        - "Level 4: Sovereign Ambition (e.g., aims for statehood)"
-        # ----------------------
+        - 'Level 0: Pure Virtual (e.g., a DAO)'
+        - 'Level 1: Para-Sovereign (e.g., a lobbying group)'
+        - 'Level 2: Legal Wrapper (e.g., a DAO LLC)'
+        - 'Level 3: Territorial Enclave (e.g., an SEZ)'
+        - 'Level 4: Sovereign Ambition (e.g., aims for statehood)'
     validations:
       required: true
 
@@ -109,4 +107,4 @@ body:
     attributes:
       label: Additional Context or Justification
       description: "Why did you choose these scores? Any other links (whitepaper, Discord, etc.) or signal markers we should know about?"
-      placeholder: "e.g., We chose Level 1 for Sovereignty because we are registered as a Foundation in Switzerland. Our primary vector is FUND..."
+      placeholder: "e.g., We chose Level 2 for Sovereignty because we are registered as a Foundation in Switzerland. Our primary vector is FUND..."
