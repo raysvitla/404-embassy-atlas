@@ -1,6 +1,6 @@
 # .github/ISSUE_TEMPLATE/new_entity_suggestion.yml
 
-name: Suggest a New Entity for the Atlas
+name: 💡 Suggest a New Entity for the Atlas
 description: Fill out this form to propose a new project, company, or movement for the 404 Embassy Atlas.
 title: "Add Entity: [Project Name]"
 labels: ["new-entity", "data-needed"]
@@ -24,7 +24,7 @@ body:
     attributes:
       label: Website or Primary Link
       description: "Where can we find the canonical source of truth for this project?"
-      placeholder: "e.g., https://prospera.hn/"
+      placeholder: "https://prospera.hn/"
     validations:
       required: true
 
@@ -94,15 +94,19 @@ body:
       label: Axis Z: Sovereignty Gradient
       description: "How 'real' is the entity?"
       options:
+        # --- ИЗМЕНЕНИЯ ЗДЕСЬ ---
         - "Level 0: Pure Virtual (e.g., a DAO)"
         - "Level 1: Para-Sovereign (e.g., a lobbying group)"
         - "Level 2: Legal Wrapper (e.g., a DAO LLC)"
         - "Level 3: Territorial Enclave (e.g., an SEZ)"
         - "Level 4: Sovereign Ambition (e.g., aims for statehood)"
+        # ----------------------
+    validations:
+      required: true
 
   - type: textarea
     id: additional-context
     attributes:
       label: Additional Context or Justification
       description: "Why did you choose these scores? Any other links (whitepaper, Discord, etc.) or signal markers we should know about?"
-      placeholder: "e.g., We chose Level 2 for Sovereignty because we are registered as a Foundation in Switzerland. Our primary vector is FUND..."
+      placeholder: "e.g., We chose Level 1 for Sovereignty because we are registered as a Foundation in Switzerland. Our primary vector is FUND..."
