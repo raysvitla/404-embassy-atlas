@@ -1,0 +1,108 @@
+# .github/ISSUE_TEMPLATE/new_entity_suggestion.yml
+
+name: Suggest a New Entity for the Atlas
+description: Fill out this form to propose a new project, company, or movement for the 404 Embassy Atlas.
+title: "Add Entity: [Project Name]"
+labels: ["new-entity", "data-needed"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping map the ecosystem! Please provide as much detail as possible. The more info you give, the faster we can get your entity on the Atlas.
+
+  - type: input
+    id: project-name
+    attributes:
+      label: Project Name
+      description: What is the official name of the entity?
+      placeholder: e.g., Próspera ZEDE
+    validations:
+      required: true
+
+  - type: input
+    id: project-website
+    attributes:
+      label: Website or Primary Link
+      description: "Where can we find the canonical source of truth for this project?"
+      placeholder: "e.g., https://prospera.hn/"
+    validations:
+      required: true
+
+  - type: textarea
+    id: project-description
+    attributes:
+      label: One-Line Pitch
+      description: "In a single sentence, what is this entity?"
+      placeholder: "e.g., A special economic zone in Honduras offering legal and regulatory autonomy."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: core-identity
+    attributes:
+      label: Core Identity
+      description: What is the primary structural form of this entity? (Choose the best fit)
+      options:
+        - Movement
+        - Protocol
+        - DAO
+        - SEZ
+        - Charter City
+        - Diaspora
+        - Think Tank
+        - Venture Fund
+        - Media Outlet
+        - For-Profit Corp
+        - Non-Profit Foundation
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ### Self-Assessment (Optional but highly recommended)
+        Help us by providing your own assessment based on the EPNC protocol.
+
+  - type: dropdown
+    id: modus-operandi
+    attributes:
+      label: Axis X: Modus Operandi
+      description: "Is the primary output Culture/Narrative or Code/Protocol?"
+      options:
+        - "-1.0 (Almost Purely Narrative)"
+        - "-0.5 (Leans Narrative)"
+        - "0.0 (Balanced Hybrid)"
+        - "+0.5 (Leans Protocol)"
+        - "+1.0 (Almost Purely Protocol)"
+
+  - type: dropdown
+    id: genesis-locus
+    attributes:
+      label: Axis Y: Genesis Locus
+      description: "Is the origin Bottom-up/Emergent or Top-down/Architected?"
+      options:
+        - "-1.0 (Almost Purely Emergent)"
+        - "-0.5 (Leans Emergent)"
+        - "0.0 (Balanced Hybrid)"
+        - "+0.5 (Leans Architected)"
+        - "+1.0 (Almost Purely Architected)"
+
+  - type: dropdown
+    id: sovereignty-level
+    attributes:
+      label: Axis Z: Sovereignty Gradient
+      description: "How 'real' is the entity?"
+      options:
+        - "Level 0: Pure Virtual (e.g., a DAO)"
+        - "Level 1: Para-Sovereign (e.g., a lobbying group)"
+        - "Level 2: Legal Wrapper (e.g., a DAO LLC)"
+        - "Level 3: Territorial Enclave (e.g., an SEZ)"
+        - "Level 4: Sovereign Ambition (e.g., aims for statehood)"
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context or Justification
+      description: "Why did you choose these scores? Any other links (whitepaper, Discord, etc.) or signal markers we should know about?"
+      placeholder: "e.g., We chose Level 2 for Sovereignty because we are registered as a Foundation in Switzerland. Our primary vector is FUND..."
