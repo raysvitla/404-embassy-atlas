@@ -50,6 +50,9 @@ The Atlas is a living document. We welcome contributions from the community.
 3.  **Improve the Protocol:** Have ideas for improving the EPNC protocol itself? Start a discussion.
 
 This is not just a repository; it's a public utility for understanding the future of governance.
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 ---
 
